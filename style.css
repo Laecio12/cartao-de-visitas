@@ -1,0 +1,66 @@
+.card {
+  
+  border: 1px solid #ccc;
+  max-width: 250px;
+}
+.profile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.profile img{
+  margin-top: 2rem;
+  border-radius: 50%;
+  
+}
+
+.description{
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.description p {
+  margin-top: 1rem;
+}
+
+.tech{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Global style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  @media (max-width: 1080px){
+    font-size:93.75%;
+  }
+  @media (max-width: 720px){
+    font-size:87.5%;
+  }
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #DDBEA9;
+  -webkit-font-smoothing: antialiased;
+}
+body, input, textarea, button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6, strong {
+  font-weight: 600;
+}
+button {
+  cursor: pointer;
+}
