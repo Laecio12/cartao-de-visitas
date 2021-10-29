@@ -1,7 +1,9 @@
 .card {
-  
-  border: 1px solid #ccc;
-  max-width: 250px;
+  border-radius: 0.25rem;
+  margin: 2rem 0;
+  padding: 1rem;
+  box-shadow:0 0 1em #000;
+  max-width: 350px;
 }
 .profile{
   display: flex;
@@ -9,6 +11,7 @@
   justify-content: center;
   
 }
+
 
 .profile img{
   margin-top: 2rem;
@@ -25,13 +28,37 @@
 .description p {
   margin-top: 1rem;
 }
+.description h1 {
+  font-size: 2rem;
+}
 
 .tech{
+  margin-top: 1rem;
+}
+.tech ul {
+  margin-top: 1rem;
+  list-style: none;
+}
+.contact {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  
 }
+.contact a {
+  margin-right: 1rem;
+  text-decoration: underline;  
+}
+.contact i:hover {
+
+  transition: filter 0.2s;
+  filter: brightness(0.9);
+  transform: scaleX(1.1);
+}
+.contact i {
+  font-size: 2rem;
+}
+
 
 /* Global style */
 * {
